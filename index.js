@@ -2,26 +2,24 @@ const section = document.querySelector("#green");
 const welcome = document.querySelector(".maincCon");
 const happyK = document.querySelector(".happyK");
 const happy = document.querySelector("#happy");
-const gK = document.querySelector(".greenK");
+const greenK = document.querySelector(".greenK");
 const modal = document.querySelector(".modal");
+const keyword = document.querySelectorAll(".keyword");
+const con = document.querySelector(".containerA");
+const con2 = document.querySelector(".containerB");
 
 function handelClick(e) {
-  welcome.classList.add("hidden");
-  modal.style.zIndex = "1000";
-  modal.classList.remove("hidden");
-  if (section.id === "green") {
+  if (e.target.href.includes("#green")) {
+    welcome.classList.add("hidden");
+    modal.style.zIndex = "1000";
+    modal.classList.remove("hidden");
     section.classList.toggle("hidden");
-  }
-}
-
-function handelClick2(e) {
-  welcome.classList.add("hidden");
-  modal.style.zIndex = "1000";
-  modal.classList.remove("hidden");
-  if (happy.id === "happy") {
+  } else if (e.target.href.includes("#happy")) {
+    welcome.classList.add("hidden");
+    modal.style.zIndex = "1000";
+    modal.classList.remove("hidden");
     happy.classList.toggle("hidden");
   }
 }
 
-gK.addEventListener("click", handelClick);
-happyK.addEventListener("click", handelClick2);
+keyword.forEach((item) => item.addEventListener("click", handelClick));

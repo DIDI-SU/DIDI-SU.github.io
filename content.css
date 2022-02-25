@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+div #kerropi {
+  font-family: "Permanent Marker", cursive;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.kero {
+  border-radius: 0%;
+  margin: 10px;
+}
+.pic {
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+}
+main {
+  margin-top: 60px;
+  max-width: 1500px;
+  height: 100vh;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
+}
+.container p {
+  width: 40%;
+}
+.mini {
+  display: flex;
+  max-width: 1500px;
+  justify-content: space-around;
+  height: 100px;
+  font-size: 5rem;
+}

@@ -1,13 +1,11 @@
 .modal {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
   z-index: -2;
+  position: absolute;
 }
 .pic {
   width: 500px;
@@ -15,6 +13,8 @@
   border-radius: 50%;
 }
 .greenCon {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,108 +42,35 @@
 .ti {
   width: 90%;
 }
-@media (max-width: 1400px) and (max-width: 1500px) {
-  .welcome {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto 0 auto;
-    max-width: 1300px;
-    font-size: 9rem;
-  }
-}
-@media (max-width: 1300px) and (max-width: 1400px) {
-  .welcome {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto 0 auto;
-    max-width: 1200px;
-    font-size: 8rem;
-  }
-}
-
-@media (max-width: 1200px) and (max-width: 1300px) {
-  .welcome {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto 0 auto;
-    max-width: 1100px;
-    font-size: 7.5rem;
-  }
-}
-@media (max-width: 1100px) and (max-width: 1200px) {
-  .welcome {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto 0 auto;
-    max-width: 1000px;
-    font-size: 7rem;
-  }
-}
-@media (max-width: 1000px) and (max-width: 1100px) {
-  .welcome {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto 0 auto;
-    max-width: 900px;
-    font-size: 6.5rem;
-  }
-}
-
-@media (max-width: 900px) and (max-width: 1000px) {
-  .welcome {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto 0 auto;
-    max-width: 850px;
-    font-size: 6rem;
-  }
-}
 @media (max-width: 800px) and (max-width: 900px) {
-  .welcome {
+  .modal {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    margin: 0 auto 0 auto;
-    max-width: 800px;
-    font-size: 5.5rem;
+    align-items: center;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -2;
   }
-  header {
-    height: 300px;
+  .pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
   }
-}
-@media (max-width: 750px) and (max-width: 800px) {
-  .welcome {
+  .greenCon {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    margin: 0 auto 0 auto;
-    max-width: 750px;
-    font-size: 5rem;
-  }
-  header {
-    height: 300px;
+    align-items: center;
+    position: absolute;
+    width: 600px;
+    height: auto;
+    font-size: 1rem;
   }
 }
-@media (max-width: 700px) and (max-width: 750px) {
-  .welcome {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto 0 auto;
-    max-width: 400px;
-    font-size: 4rem;
-  }
-  header {
-    height: 300px;
-  }
-}
-
 @media (max-width: 650px) {
   .modal {
     display: flex;
@@ -162,6 +89,8 @@
     border-radius: 50%;
   }
   .greenCon {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
