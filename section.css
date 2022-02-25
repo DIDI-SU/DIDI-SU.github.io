@@ -1,15 +1,21 @@
 .greenCon {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+  position: flex;
   margin: 400px auto 400px auto;
-  font-size: 5rem;
+  max-width: 1500px;
+  font-size: 4rem;
+  z-index: -1;
+}
+.hidden {
+  display: none;
 }
 .keyContainer {
   display: flex;
   justify-content: center;
   margin: 0 auto 0 auto;
   height: 800px;
+}
+.overlay {
+  z-index: -2;
 }
 .pic {
   border-radius: 50%;
@@ -32,4 +38,12 @@ nav {
 }
 .last {
   margin-left: 50px;
+}
+
+@media (max-width: 650px) {
+  .pic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
 }

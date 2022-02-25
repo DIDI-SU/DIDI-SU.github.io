@@ -1,13 +1,21 @@
-const section = document.querySelector("#green").classList;
-const welcome = document.querySelector(".welcome").classList;
-const keyword = document.querySelectorAll(".keyword");
-const happy = document.querySelector("#happy").classList;
+const section = document.querySelector("#green");
+const welcome = document.querySelector(".welcome");
+const happyK = document.querySelector(".happyK");
+const happy = document.querySelector("#happy");
+const gK = document.querySelector(".greenK");
 
-function handleClick(e) {
-  console.log("hi");
-  welcome.toggle("hidden");
-  if (e.target.href.includes("green")) {
-    section.toggle("hidden");
-  } else happy.toggle("hidden");
+function handelClick(e) {
+  section.classList.remove("hidden");
+  welcome.classList.add("hidden");
+  section.classList.add("overlay");
 }
-keyword.forEach((item) => item.addEventListener("click", handleClick));
+
+function handelClick2(e) {
+  happy.classList.remove("hidden");
+  welcome.classList.add("hidden");
+  happy.classList.add("overlay");
+}
+console.log(section.classList.contains("overlay"));
+
+gK.addEventListener("click", handelClick);
+happyK.addEventListener("click", handelClick2);
