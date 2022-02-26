@@ -53,266 +53,178 @@
 .ti {
   width: 90%;
 }
-@media (max-width: 1400px) and (max-width: 1500px) {
+@media all and (min-width: 1040px) and (max-width: 1400px) {
   .greenCon {
-    width: 1400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .keyContaine {
-    background-color: blanchedalmond;
-    width: 1300px;
-    display: flex;
+    max-width: 1000px;
     height: 400px;
-    justify-content: space-evenly;
   }
-  .mini {
-    height: 30px;
-    width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 2rem;
-  }
-  .pic {
-    width: 450px;
-    height: 450px;
-    border-radius: 50%;
-  }
-}
-
-@media (max-width: 1300px) and (max-width: 1400px) {
-  .greenCon {
-    width: 1300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .keyContaine {
-    background-color: blanchedalmond;
-    width: 1200px;
-    display: flex;
-    height: 400px;
-    justify-content: space-evenly;
-  }
-  .mini {
-    height: 30px;
-    width: 1100px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 2rem;
-  }
-  .pic {
-    width: 450px;
-    height: 450px;
-    border-radius: 50%;
-  }
-}
-@media (max-width: 1200px) and (max-width: 1300px) {
-  .mainContainer {
-    width: 1200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .containerA {
-    background-color: blanchedalmond;
-    width: 1100px;
-    display: flex;
-    height: 400px;
-    justify-content: space-evenly;
-  }
-  .miniHeader {
-    height: 30px;
-    width: 1000px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.5rem;
-  }
-}
-@media (max-width: 1100px) and (max-width: 1200px) {
-  .greenCon {
-    width: 1100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
   .keyContainer {
-    background-color: blanchedalmond;
     width: 1000px;
-    display: flex;
-    height: 400px;
-    justify-content: space-evenly;
   }
   .mini {
     height: 30px;
-    width: 800px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 1.5rem;
-  }
-  .pic {
-    width: 250px;
-    height: 300px;
-    margin: 5px;
-    border-radius: 50%;
-  }
-}
-
-@media (max-width: 1000px) and (max-width: 1100px) {
-  .greenCon {
-    width: 1000px;
-  }
-  .key {
     width: 900px;
-  }
-  .containerA {
-    width: 1000px;
-  }
-  .miniHeader {
-    height: 30px;
-    width: 800px;
     display: flex;
     justify-content: space-between;
     font-size: 1.5rem;
   }
   .pic {
-    width: 250px;
+    width: 300px;
     height: 300px;
     margin: 5px;
     border-radius: 50%;
   }
+  .key {
+    width: 750px;
+  }
   .last {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
-@media (max-width: 800px) and (max-width: 900px) {
+
+@media all and (min-width: 900px) and (max-width: 1040px) {
   .greenCon {
+    max-width: 800px;
+    height: 400px;
+  }
+  .keyContainer {
     width: 800px;
+  }
+  .mini {
+    height: 30px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+  }
+  .pic {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 50%;
   }
   .key {
     width: 700px;
   }
-  .containerA {
-    width: 700px;
+  .last {
+    font-size: 1.5rem;
   }
-  .miniHeader {
+}
+@media all and (min-width: 800px) and (max-width: 900px) {
+  .greenCon {
+    max-width: 750px;
+    height: 400px;
+  }
+  .keyContainer {
+    width: 750px;
+  }
+  .mini {
     height: 30px;
-    width: 700px;
+    width: 750px;
     display: flex;
     justify-content: space-between;
     font-size: 1.5rem;
   }
   .pic {
-    width: 150px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin: 5px;
     border-radius: 50%;
+  }
+  .key {
+    width: 750px;
   }
   .last {
     font-size: 1.5rem;
   }
 }
-@media (max-width: 750px) and (max-width: 800px) {
-  .mainContainer {
-    width: 800px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
 
-  .containerA {
-    background-color: seashell;
-    width: 700px;
-    display: flex;
+@media all and (min-width: 700px) and (max-width: 800px) {
+  .greenCon {
+    max-width: 700px;
     height: 400px;
-    justify-content: space-evenly;
   }
-  .miniHeader {
+  .keyContainer {
+    width: 700px;
+  }
+  .mini {
     height: 30px;
     width: 600px;
     display: flex;
     justify-content: space-between;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
-  .jibupic {
-    width: 150px;
-    height: 250px;
+  .pic {
+    width: 200px;
+    height: 200px;
     margin: 5px;
+    border-radius: 50%;
   }
-  .kero {
-    width: 300px;
-    height: 300px;
-    margin: 5px;
+  .key {
+    width: 700px;
   }
-  #keyKero {
-    font-size: 1.5rem;
-    margin: 8px;
-  }
-  .keyInfo {
-    font-size: 1.5rem;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .last {
+    font-size: 2rem;
   }
 }
-@media (max-width: 700px) and (max-width: 750px) {
-  .mainContainer {
-    width: 700px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+@media all and (min-width: 600px) and (max-width: 700px) {
+  .greenCon {
+    max-width: 600px;
+    height: 400px;
   }
-
-  .containerA {
-    background-color: seashell;
+  .keyContainer {
+    width: 600px;
+  }
+  .mini {
+    height: 30px;
     width: 600px;
     display: flex;
-    height: 400px;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    font-size: 2rem;
   }
-  .miniHeader {
+  .pic {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 50%;
+  }
+  .key {
+    width: 600px;
+  }
+  .last {
+    font-size: 2rem;
+  }
+}
+@media all and (min-width: 500px) and (max-width: 600px) {
+  .greenCon {
+    max-width: 500px;
+    height: 400px;
+  }
+  .keyContainer {
+    width: 500px;
+  }
+  .mini {
     height: 30px;
-    width: 00px;
+    width: 500px;
     display: flex;
     justify-content: space-between;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
-  .jibupic {
-    width: 150px;
-    height: 250px;
+  .pic {
+    width: 200px;
+    height: 200px;
     margin: 5px;
+    border-radius: 50%;
   }
-  .kero {
-    width: 300px;
-    height: 300px;
-    margin: 5px;
+  .key {
+    width: 500px;
   }
-  #keyKero {
-    font-size: 1.5rem;
-    margin: 8px;
-  }
-  .keyInfo {
-    font-size: 1.5rem;
-    width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .last {
+    font-size: 2rem;
   }
 }
 
-@media (max-width: 600px) {
+@media all and (max-width: 479px) {
   .greenCon {
     width: 300px;
     margin: 10px;
@@ -328,15 +240,15 @@
     width: 300px;
     display: flex;
     justify-content: space-between;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .pic {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin: 5px;
     border-radius: 50%;
   }
   .last {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
