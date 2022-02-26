@@ -54,3 +54,69 @@ main {
   height: 400px;
   margin: 5px;
 }
+
+@media (max-width: 700px) and (max-width: 750px) {
+  .miniHeader {
+    height: 30px;
+    width: 650px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+  }
+  .containerA {
+    background-color: seashell;
+    margin: 20px;
+    width: 700px;
+    display: flex;
+    height: 200px;
+    justify-content: space-evenly;
+  }
+  .jibupic {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+  }
+  .kero {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+  }
+}
+
+@media (max-width: 650px) {
+  .containerA {
+    background-color: seashell;
+    width: 550px;
+    display: flex;
+    height: 200px;
+    justify-content: space-evenly;
+  }
+  .miniHeader {
+    height: 30px;
+    width: 550px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+  }
+  .jibupic {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+  }
+  .kero {
+    width: 140px;
+    height: 140px;
+    margin: 5px;
+  }
+  #keyKero {
+    font-size: 1rem;
+    margin: 8px;
+  }
+  .keyInfo {
+    font-size: 1rem;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

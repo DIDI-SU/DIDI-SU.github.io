@@ -22,17 +22,23 @@
   width: 1500px;
   height: auto;
   font-size: 4rem;
+  background-color: blanchedalmond;
 }
 .keyContainer {
+  width: 1400px;
   display: flex;
+  justify-content: space-around;
   flex-direction: column;
   align-items: center;
 }
 .key {
   display: flex;
+  width: 1100px;
 }
 .last {
   flex-direction: column;
+
+  align-items: center;
   margin: 30px;
 }
 .mini {
@@ -58,6 +64,13 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
+  }
+  .keyContainer {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
   }
   .greenCon {
     width: 100vw;
